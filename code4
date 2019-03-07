@@ -36,53 +36,63 @@ class student
 };
 
 
-`
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-code4[+] [unix] (10:09 07/03/2019)                                                                                                                                             iiiiiii==i=iiiiiihfghfghfhfhiiii[200~void student::getDetails(void){
+void student::getDetails(void){
 	cout << "Enter name: " ;
-		cin >> name;
-			cout << "Enter roll number: ";
-				cin >> rollNo;
-					cout << "Enter total marks outof 500: ";
-						cin >> total;
-							
-								perc=(float)total/500*100;
-								}
+	cin >> name;
+	cout << "Enter roll number: ";
+	cin >> rollNo;
+	cout << "Enter total marks outof 500: ";
+	cin >> total;
+	
+	perc=(float)total/500*100;
+}
+
+
+int main()
+{
+	student std;	
+	std.getDetails();
+	std.putDetails();
+	
+	return 0;
+	}
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+code4[+] [unix] (10:09 07/03/2019)                                                                       }
