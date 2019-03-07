@@ -1,0 +1,17 @@
+
+#include <iostream>
+using namespace std;
+
+class student
+{
+	private:
+		char  name[30];
+		int   rollNo;
+		int   total;
+		float perc;
+	public:
+		
+		void getDetails(void)
+	
+		void putDetails(void);
+};`
