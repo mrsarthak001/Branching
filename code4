@@ -16,26 +16,6 @@ class student
 		void putDetails(void);
 };
 
-
-
-#include <iostream>
-using namespace std;
-
-class student
-{
-        private:
-                char  name[30];
-                int   rollNo;
-                int   total;
-                float perc;
-        public:
-
-                void getDetails(void)
-
-                void putDetails(void);
-};
-
-
 void student::getDetails(void){
 	cout << "Enter name: " ;
 	cin >> name;
@@ -56,43 +36,4 @@ int main()
 	
 	return 0;
 	}
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-code4[+] [unix] (10:09 07/03/2019)                                                                       }
+                                                                 }
